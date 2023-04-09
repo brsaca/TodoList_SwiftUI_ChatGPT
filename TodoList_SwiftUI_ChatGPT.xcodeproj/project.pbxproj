@@ -15,7 +15,18 @@
 		23189D3129E263A100D4C0E7 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3029E263A100D4C0E7 /* TaskRow.swift */; };
 		23189D3329E263C700D4C0E7 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3229E263C700D4C0E7 /* TaskList.swift */; };
 		23189D3629E2641900D4C0E7 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3529E2641900D4C0E7 /* TaskViewModel.swift */; };
+		23189D3E29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3D29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23189D3F29E267B000D4C0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23189D1129E25E7000D4C0E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23189D1829E25E7000D4C0E7;
+			remoteInfo = TodoList_SwiftUI_ChatGPT;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		23189D1929E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList_SwiftUI_ChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +40,19 @@
 		23189D3029E263A100D4C0E7 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		23189D3229E263C700D4C0E7 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 		23189D3529E2641900D4C0E7 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		23189D3B29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoList_SwiftUI_ChatGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23189D3D29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList_SwiftUI_ChatGPTTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		23189D1629E25E7000D4C0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23189D3829E267B000D4C0E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +68,7 @@
 				23189D2B29E261A200D4C0E7 /* .gitignore */,
 				23189D2A29E25EBB00D4C0E7 /* README.md */,
 				23189D1B29E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT */,
+				23189D3C29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests */,
 				23189D1A29E25E7000D4C0E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				23189D1929E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT.app */,
+				23189D3B29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +129,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		23189D3C29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				23189D3D29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.swift */,
+			);
+			path = TodoList_SwiftUI_ChatGPTTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +157,24 @@
 			productReference = 23189D1929E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT.app */;
 			productType = "com.apple.product-type.application";
 		};
+		23189D3A29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23189D4129E267B000D4C0E7 /* Build configuration list for PBXNativeTarget "TodoList_SwiftUI_ChatGPTTests" */;
+			buildPhases = (
+				23189D3729E267B000D4C0E7 /* Sources */,
+				23189D3829E267B000D4C0E7 /* Frameworks */,
+				23189D3929E267B000D4C0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23189D4029E267B000D4C0E7 /* PBXTargetDependency */,
+			);
+			name = TodoList_SwiftUI_ChatGPTTests;
+			productName = TodoList_SwiftUI_ChatGPTTests;
+			productReference = 23189D3B29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +187,10 @@
 				TargetAttributes = {
 					23189D1829E25E7000D4C0E7 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					23189D3A29E267B000D4C0E7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 23189D1829E25E7000D4C0E7;
 					};
 				};
 			};
@@ -156,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				23189D1829E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT */,
+				23189D3A29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +220,13 @@
 			files = (
 				23189D2429E25E7500D4C0E7 /* Preview Assets.xcassets in Resources */,
 				23189D2129E25E7500D4C0E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23189D3929E267B000D4C0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +246,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23189D3729E267B000D4C0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23189D3E29E267B000D4C0E7 /* TodoList_SwiftUI_ChatGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23189D4029E267B000D4C0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23189D1829E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT */;
+			targetProxy = 23189D3F29E267B000D4C0E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		23189D2529E25E7500D4C0E7 /* Debug */ = {
@@ -361,6 +437,42 @@
 			};
 			name = Release;
 		};
+		23189D4229E267B000D4C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RQAYNAD56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsc.TodoList-SwiftUI-ChatGPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList_SwiftUI_ChatGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList_SwiftUI_ChatGPT";
+			};
+			name = Debug;
+		};
+		23189D4329E267B000D4C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RQAYNAD56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsc.TodoList-SwiftUI-ChatGPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList_SwiftUI_ChatGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList_SwiftUI_ChatGPT";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -378,6 +490,15 @@
 			buildConfigurations = (
 				23189D2829E25E7500D4C0E7 /* Debug */,
 				23189D2929E25E7500D4C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23189D4129E267B000D4C0E7 /* Build configuration list for PBXNativeTarget "TodoList_SwiftUI_ChatGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23189D4229E267B000D4C0E7 /* Debug */,
+				23189D4329E267B000D4C0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
