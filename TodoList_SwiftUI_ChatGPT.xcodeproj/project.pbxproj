@@ -11,6 +11,10 @@
 		23189D1F29E25E7000D4C0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D1E29E25E7000D4C0E7 /* ContentView.swift */; };
 		23189D2129E25E7500D4C0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23189D2029E25E7500D4C0E7 /* Assets.xcassets */; };
 		23189D2429E25E7500D4C0E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23189D2329E25E7500D4C0E7 /* Preview Assets.xcassets */; };
+		23189D2E29E2635A00D4C0E7 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D2D29E2635A00D4C0E7 /* TaskModel.swift */; };
+		23189D3129E263A100D4C0E7 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3029E263A100D4C0E7 /* TaskRow.swift */; };
+		23189D3329E263C700D4C0E7 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3229E263C700D4C0E7 /* TaskList.swift */; };
+		23189D3629E2641900D4C0E7 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D3529E2641900D4C0E7 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		23189D2329E25E7500D4C0E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23189D2A29E25EBB00D4C0E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		23189D2B29E261A200D4C0E7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		23189D2D29E2635A00D4C0E7 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		23189D3029E263A100D4C0E7 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		23189D3229E263C700D4C0E7 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		23189D3529E2641900D4C0E7 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,10 @@
 		23189D1B29E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPT */ = {
 			isa = PBXGroup;
 			children = (
+				23189D3429E263FB00D4C0E7 /* ViewModel */,
+				23189D2F29E2637B00D4C0E7 /* View */,
+				23189D2C29E2633E00D4C0E7 /* Model */,
 				23189D1C29E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPTApp.swift */,
-				23189D1E29E25E7000D4C0E7 /* ContentView.swift */,
 				23189D2029E25E7500D4C0E7 /* Assets.xcassets */,
 				23189D2229E25E7500D4C0E7 /* Preview Content */,
 			);
@@ -69,6 +79,32 @@
 				23189D2329E25E7500D4C0E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23189D2C29E2633E00D4C0E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23189D2D29E2635A00D4C0E7 /* TaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23189D2F29E2637B00D4C0E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23189D3029E263A100D4C0E7 /* TaskRow.swift */,
+				23189D3229E263C700D4C0E7 /* TaskList.swift */,
+				23189D1E29E25E7000D4C0E7 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23189D3429E263FB00D4C0E7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				23189D3529E2641900D4C0E7 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23189D2E29E2635A00D4C0E7 /* TaskModel.swift in Sources */,
+				23189D3629E2641900D4C0E7 /* TaskViewModel.swift in Sources */,
+				23189D3329E263C700D4C0E7 /* TaskList.swift in Sources */,
 				23189D1F29E25E7000D4C0E7 /* ContentView.swift in Sources */,
 				23189D1D29E25E7000D4C0E7 /* TodoList_SwiftUI_ChatGPTApp.swift in Sources */,
+				23189D3129E263A100D4C0E7 /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
