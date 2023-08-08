@@ -39,4 +39,4 @@ A todo list in SwiftUI with the help of ChatGPT4 [ChatGPT and iOS App Developeme
 **Brenda Saavedra**
 
 - WebPage: [brendasaavedra.com](http://brendasaavedra.com)
-- Github: [@brenfondeadora](https://github.com/brenfondeadora/)
+- Github: [@brsaca](https://github.com/brsaca/)
